@@ -1,0 +1,80 @@
+body {
+	background:#f1f1f1;
+}
+section {
+	margin: auto;
+	display: block;
+	text-align: center;
+	width: 50%;
+}
+.cuadro {
+    width: 410px;
+    border: 4px solid;
+    margin: auto;
+    float: left;
+    background: red;
+}
+.blue_left {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #0099cb;
+    display: inline-block;
+}
+.verde_t {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 107px solid #99cc01;
+	border-top: 100px solid transparent;
+	border-bottom: 102px solid #99cc01;
+	margin-top: -106px;
+	float: right;
+	z-index: 999;
+	position: relative;
+}
+.cua_red {
+	width: 0;
+    height: 0;
+    border-left: 100px solid #feccff;
+    border-right: 103px solid transparent;
+    border-top: 100px solid transparent;
+    border-bottom: 102px solid #feccff;
+    position: absolute;
+    margin-top: -107px;
+    float: right;
+    z-index: 999;
+}
+.cua_red_2 {
+	width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 102px solid #feccff;
+    border-top: 100px solid #feccff;
+    border-bottom: 115px solid transparent;
+    position: absolute;
+    margin-top: 93px;
+    float: right;
+    z-index: 999;
+}
+.naranja_P {
+	width: 0;
+    height: 0;
+    border-left: 100px solid #ff9934;
+    border-right: 103px solid transparent;
+    border-top: 100px solid transparent;
+    border-bottom: 102px solid #ff9934;
+    position: absolute;
+    margin-top: 105px;
+    float: right;
+    z-index: 999;
+}
+.cuadrado_y {
+	width: 205px;
+	height: 205px;
+	background: #ffff33;
+	border: 3px solid black;
+	border-right: 0;
+	float: right;
+}
